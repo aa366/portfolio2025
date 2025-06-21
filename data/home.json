@@ -1,0 +1,10 @@
+{
+    "personal":{
+    "Name":"Abdelwahab Anwr",
+    "Role": "Front End Developer",
+    "Description":"I'm a Front-End Developer with expertise in building responsive, user-friendly web interfaces. Skilled in modern front-end technologies like Sass, Next JS, Tailwind, and frameworks such as React, focuses on creating seamless and visually appealing digital experiences. With a strong eye for design and performance optimization, he ensures that applications are both functional and engaging for users.",
+     "skills": ["HTML", "CSS", "JavaScript", "React"]
+}
+
+
+}

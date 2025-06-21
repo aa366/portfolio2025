@@ -1,9 +1,11 @@
+git push -u origin main
 
 2. Page Breakdown (4 Pages Total)
 ① Homepage (Landing Page)
 Hero Section:
 
 "Hi, I'm [Your Name], a [Your Role] building [Brief Description]."
+
 
 Call-to-action: "View My Projects" (links to Projects page).
 
@@ -15,6 +17,8 @@ About Me Teaser:
 
 2-3 sentences + "Read More" (links to About page).
 
+
+-------------------------------------------------------------------------------
 ② Projects Page (Your 2 projects in detail)
 Project 1: E-commerce Website
 
@@ -34,6 +38,7 @@ What You Learned: "Improved my CSS Grid skills" or "First time using [XYZ]."
 
 (Tip: Add mockups/screenshots to make it visual.)
 
+---------------------------------------------------------------------------
 ③ About Page (CV + Personality)
 Short Bio: Who you are, what you’re learning, career goals.
 

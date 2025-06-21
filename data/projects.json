@@ -1,0 +1,19 @@
+{
+"projects":{
+    "best":[
+        {
+            "deploy":"https://e-commerce-5i5j.vercel.app/",
+            "github":"https://github.com/aa366/E-commerce-",
+            "img":"/PE-commerce.png",
+            "title":"personal E-commerce",
+            "tech":["Next JS","Sass","Firebase"]
+        }
+    ]
+},
+"icon":{
+    "Firebase":"https://img.icons8.com/?size=100&id=ROMfFZ1tMhpk&format=png&color=000000",
+    "Sass":"https://img.icons8.com/?size=100&id=78Fr72VCwbPq&format=png&color=000000",
+    "Next JS":"https://cdn.iconscout.com/icon/premium/png-512-thumb/next-9305886-7694085.png?f=webp&w=256",
+    "Github":"https://cdn.iconscout.com/icon/free/png-512/free-github-logo-icon-download-in-svg-png-gif-file-formats--brand-development-tools-pack-logos-icons-226096.png?f=webp&w=256"
+}
+}

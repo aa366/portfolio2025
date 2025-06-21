@@ -1,4 +1,4 @@
-
+"use client"
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -11,7 +11,7 @@ export default function RootLayout({
   return (
       <>
         <Navbar />
-        <div className="flex-1">
+        <div className="">
           {children}
         </div>
         <Footer />
