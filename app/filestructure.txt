@@ -51,7 +51,7 @@ Optional Extras:
 A fun fact ("When I’m not coding, I love ___").
 
 A photo (makes it personal).
-
+------------------------------------------------------------------------------
 ④ Contact Page
 Email: Professional address (e.g., hello@yourname.com).
 

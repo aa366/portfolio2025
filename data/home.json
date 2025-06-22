@@ -3,7 +3,13 @@
     "Name":"Abdelwahab Anwr",
     "Role": "Front End Developer",
     "Description":"I'm a Front-End Developer with expertise in building responsive, user-friendly web interfaces. Skilled in modern front-end technologies like Sass, Next JS, Tailwind, and frameworks such as React, focuses on creating seamless and visually appealing digital experiences. With a strong eye for design and performance optimization, he ensures that applications are both functional and engaging for users.",
-     "skills": ["HTML", "CSS", "JavaScript", "React"]
+     "skills": ["HTML", "CSS", "JavaScript", "React","Next JS" ,"Tailwind" , "Sass","Firebase","Aceternity UI" ,"TypeScript" ,"Redux"],
+     "aboutTeaser":["it's really shameful i don't have many projects to display ","I can take one month internship for free to gain experience"],
+     "willLearn":["GraphQL","Apollo","React Native","Electron","Node JS"],
+     "img":["ME.jpg"],
+     "resume":"https://drive.google.com/file/d/1F5HMtHwTvk-CZYvFoEjdXVEMtC8dq2w6/view?usp=drive_link",
+     "coverLetter":"https://drive.google.com/file/d/1Wl9CM995z9-KNyDGJCSHqizYsENJEZju/view?usp=drive_link"
+
 }
 
 

@@ -6,7 +6,20 @@
             "github":"https://github.com/aa366/E-commerce-",
             "img":"/PE-commerce.png",
             "title":"personal E-commerce",
-            "tech":["Next JS","Sass","Firebase"]
+            "tech":["Next JS","Sass","Firebase"],
+            "description":"A full-stack online store with cart",
+            "challenges":"it was hard ,usually the first is the hardest ",
+             "time":"3"
+        },
+        {
+            "deploy":"",
+            "github":"https://github.com/aa366/portfolio2025",
+            "img":"/Portfolio.png",
+            "title":"Portfolio template 2025",
+            "tech":["Next JS","Tailwind","Aceternity UI","Sentry","TypeScript"],
+            "description":"A Modern, responsive developer portfolio built with Next.js and Tailwind CSS. Showcasing my projects, skills ",
+            "challenges":"Using a lot of tech like frame motion and  Aceternity UI",
+            "time":"4"
         }
     ]
 },
@@ -14,6 +27,33 @@
     "Firebase":"https://img.icons8.com/?size=100&id=ROMfFZ1tMhpk&format=png&color=000000",
     "Sass":"https://img.icons8.com/?size=100&id=78Fr72VCwbPq&format=png&color=000000",
     "Next JS":"https://cdn.iconscout.com/icon/premium/png-512-thumb/next-9305886-7694085.png?f=webp&w=256",
-    "Github":"https://cdn.iconscout.com/icon/free/png-512/free-github-logo-icon-download-in-svg-png-gif-file-formats--brand-development-tools-pack-logos-icons-226096.png?f=webp&w=256"
+    "Github":"https://cdn.iconscout.com/icon/free/png-512/free-github-logo-icon-download-in-svg-png-gif-file-formats--brand-development-tools-pack-logos-icons-226096.png?f=webp&w=256",
+    "Tailwind":"https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000",
+    "Aceternity UI":"https://ui.aceternity.com/logo.png",
+    "Sentry":"https://img.icons8.com/?size=100&id=kjmeS4WFp36a&format=png&color=000000",
+    "TypeScript":"https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000",
+    "HTML":"https://img.icons8.com/?size=100&id=10246&format=png&color=000000",
+    "CSS":"https://img.icons8.com/?size=100&id=10236&format=png&color=000000",
+    "JavaScript":"https://img.icons8.com/?size=100&id=10263&format=png&color=000000",
+    "React":"https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000",
+    "Redux":"https://img.icons8.com/?size=100&id=egQrEphjrirz&format=png&color=000000"
+
+},
+"links":{
+    "Firebase":"https://firebase.google.com/",
+    "Sass":"https://sass-lang.com/",
+    "Next JS":"https://nextjs.org/",
+    "Github":"https://github.com/",
+    "Tailwind":"https://tailwindcss.com/",
+    "Aceternity UI":"https://ui.aceternity.com/",
+    "Sentry":"https://sentry.io/",
+    "HTML":"https://en.wikipedia.org/wiki/HTML",
+    "CSS":"https://en.wikipedia.org/wiki/CSS",
+    "JavaScript":"https://www.javascript.com/",
+    "React":"https://react.dev/",
+    "Redux":"https://redux.js.org/",
+     "TypeScript":"https://www.typescriptlang.org/"
+
+
 }
 }

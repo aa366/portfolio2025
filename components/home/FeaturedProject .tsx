@@ -10,24 +10,17 @@ const FeaturedProject = () => {
   const { projects, icon } = data;
   const { best } = projects;
 
-  console.log(best, icon);
+
 
   return (
-    <div className="flex flex-col justify-center items-center">
-      <button className="p-[3px] relative cursor-pointer w-fit flex ">
-        <Link href={`/projects `} className="flex w-full h-full">
-          <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
-          <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
-            View My Projects
-          </div>
-        </Link>
-      </button>
+    <div className="flex flex-col justify-center items-center gap-3 w-[100%]">
+  
 
-      <div className="p-2">
+      <div className="p-2 w-full flex justify-center flex-wrap gap-2">
         {best.map(({ deploy, github, img, title, tech }) => (
           <div
             key={title + deploy}
-            className="flex flex-wrap flex-col p-5 border bg-gray-500 rounded-2xl "
+            className="grid p-5 border bg-gray-400 dark:bg-gray-600  rounded-2xl shadow-sm   auto-cols-fr "
           >
             <Lens>
               <img src={img} alt={""} className="w-100  object-contain" />
@@ -46,7 +39,7 @@ const FeaturedProject = () => {
 
             <div className="flex justify-between">
               <div className="flex w-fit items-center ">
-                {tech.map((ele, idx) => (
+                {tech.map((ele) => (
                   <img
                     src={icon[ele]}
                     alt={ele}
@@ -63,6 +56,15 @@ const FeaturedProject = () => {
           </div>
         ))}
       </div>
+          <button className="p-[3px] relative cursor-pointer w-fit flex ">
+
+        <Link href={`/projects `} className="flex w-full h-full">
+          <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
+          <div className="px-8 py-2 bg-gray-200 text-black dark:bg-black dark:text-white rounded-[6px]  relative group transition duration-200  hover:bg-transparent">
+            View My Projects
+          </div>
+        </Link>
+      </button>
     </div>
   );
 };

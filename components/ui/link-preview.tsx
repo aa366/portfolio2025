@@ -77,12 +77,13 @@ export const LinkPreview = ({
   return (
     <>
       {isMounted ? (
-        <div className="hidden">
+        <div className="hidden ">
           <img
             src={src}
             width={width}
             height={height}
             alt="hidden image"
+            className="absolute  z-999"
           />
         </div>
       ) : null}
