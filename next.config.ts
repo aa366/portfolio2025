@@ -6,6 +6,9 @@ const nextConfig = {
   images: {
     domains: [
       "api.microlink.io", // Microlink Image Preview
+      "img.icons8.com",
+      "cdn.iconscout.com",
+      "ui.aceternity.com" 
     ],
   },
 };

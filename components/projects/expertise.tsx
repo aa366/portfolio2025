@@ -4,10 +4,10 @@ import dataP from "@/data/projects.json";
 import { LinkPreview } from "@/components/ui/link-preview";
 import { timeStamp } from "node:console";
 
+
 const Expertise = ({classes}:{classes?:string;}) => {
-  const { projects, icon, links } = dataP;
+  const { icon, links } = dataP;
   const { personal: infos } = data;
-  const { best } = projects;
 
   return (
     <div className="flex flex-col gap-3 items-center w-full">
@@ -25,6 +25,7 @@ const Expertise = ({classes}:{classes?:string;}) => {
               src={icon[ele]}
               alt={ele}
               className="w-10 h-10 object-contain "
+             
             />
           </LinkPreview>
         ))}

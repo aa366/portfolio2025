@@ -1,11 +1,9 @@
 import React from "react";
-import data from "@/data/home.json";
 import dataP from "@/data/projects.json";
 import { Lens } from "@/components/ui/lens";
 
 const Projects = () => {
-  const { projects, icon, links } = dataP;
-  const { personal: infos } = data;
+  const { projects, icon } = dataP;
   const { best } = projects;
 
   return (
@@ -80,6 +78,7 @@ const Projects = () => {
                       alt={ele}
                       key={icon[ele] + deploy}
                       className={`w-7 h-7  `}
+                     
                     />
                   ))}
                 </div>
