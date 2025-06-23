@@ -10,7 +10,7 @@
             "description":"A full-stack online store with cart",
             "challenges":"it was hard ,usually the first is the hardest ",
              "time":"3"
-        },
+        }, 
         {
             "deploy":"",
             "github":"https://github.com/aa366/portfolio2025",
@@ -36,7 +36,8 @@
     "CSS":"https://img.icons8.com/?size=100&id=10236&format=png&color=000000",
     "JavaScript":"https://img.icons8.com/?size=100&id=10263&format=png&color=000000",
     "React":"https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000",
-    "Redux":"https://img.icons8.com/?size=100&id=egQrEphjrirz&format=png&color=000000"
+    "Redux":"https://img.icons8.com/?size=100&id=egQrEphjrirz&format=png&color=000000",
+    "Linkedin":"https://cdn-icons-png.freepik.com/512/174/174857.png"
 
 },
 "links":{

@@ -10,7 +10,16 @@
      "resume":"https://drive.google.com/file/d/1F5HMtHwTvk-CZYvFoEjdXVEMtC8dq2w6/view?usp=drive_link",
      "coverLetter":"https://drive.google.com/file/d/1Wl9CM995z9-KNyDGJCSHqizYsENJEZju/view?usp=drive_link"
 
-}
+
+},"contactLinks": [
+
+    {"Linkedin":"https://www.linkedin.com/in/abdelwahab-anwr-72693225b/",
+     "item":"Linkedin"},
+
+    {"Github":"https://github.com/aa366",
+     "item":"Github"}
+]
+
 
 
 }
