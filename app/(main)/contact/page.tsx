@@ -1,25 +1,11 @@
-// ④ Contact Page
-// Email: Professional address (e.g., hello@yourname.com).
-
-// Social Links: GitHub, LinkedIn (must-haves), others optional.
-
-// Optional: Simple contact form (but email works fine too).
-
-// 3. What to Do If Your Projects Feel "Too Small"
-// ✅ Expand your E-commerce project:
-// Did you implement user auth? Product filtering? Write about it!
-// ✅ Add a "Learning Journey" section:
-// "Currently learning [XYZ] – check back soon for new projects!"
-// ✅ Include coursework/practice projects:
-// Even small JavaScript apps (calculator, quiz) can show skills.
-
 import data from "@/data/home.json"
 import dataP from "@/data/projects.json"
+import { timeStamp } from "console";
 
 const page =  () => {
 
-const { projects, icon, links } = dataP;
-  const { personal: infos ,contactLinks} = data;
+const { icon  } = dataP;
+  const { contactLinks} = data;
 
 
   return (
@@ -34,7 +20,7 @@ const { projects, icon, links } = dataP;
       </a>
       <div className="flex gap-[5%] p-3 bg-gray-300 rounded-2xl">
         {contactLinks.map((ele)=>(
-          <a href={ele[ele.item]} target="_blanck">
+          <a href={ele[ele.item]} target="_blanck" key={ele.item+timeStamp()}>
 
             <img src={icon[ele.item]} alt={ele.item} className="w-20 h-20"/>
           </a>
