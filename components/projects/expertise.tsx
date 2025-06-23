@@ -18,7 +18,7 @@ const Expertise = ({classes}:{classes?:string;}) => {
           expertise
         </div>
       </button>
-      <div className="flex flex-wrap bg-gradient-to-r from-gray-300 to-gray-700   w-fit p-[1%] rounded-2xl justify-self-center  z-999">
+      <div className="flex flex-wrap bg-gradient-to-r from-gray-300 to-gray-700   w-fit p-[1%] rounded-2xl justify-self-center  z-5 max-w-[98%]">
         {infos.skills.map((ele) => (
           <LinkPreview url={links[ele]} className="" key={ele+timeStamp()}>
             <img

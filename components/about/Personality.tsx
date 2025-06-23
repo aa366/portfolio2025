@@ -18,7 +18,7 @@ const Personality = () => {
           <p className="text-[1rem] font-bold text-center sm:text-2xl">
             {P.Description}
           </p>
-          <div className="flex justify-between">
+          <div className="flex justify-between my-[3%]">
             <a className="p-[3px] relative cursor-pointer w-fit flex " href={P.resume} target="_blanck">
              
                 <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
