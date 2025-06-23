@@ -18,9 +18,9 @@ export default function Navbar({ otherClasses = "" }) {
     }
   };
 
-  return (
+  return (<div className="h-[15vh] w-full lg:h-[17vh]">
     <nav
-      className={`nav-bar w-full flex p-4  text-black bg-white dark:bg-gray-900 dark:text-white text-4xl sticky justify-between px-[5%] md:px-1 lg:p-4 z-90 shadow-md ${otherClasses} `}
+      className={`nav-bar w-full flex py-4 md:py-0 text-black bg-white dark:bg-gray-900 dark:text-white text-4xl fixed justify-between px-[5%]  z-90 shadow-md ${otherClasses} `}
     >
       <div className="self-center">Abdelwahab</div>
 
@@ -43,7 +43,7 @@ export default function Navbar({ otherClasses = "" }) {
       </div>
 
       <ul
-        className={`flex flex-col items-center md:flex-row gap-5 text-2xl h-screen  md:h-full absolute bg-white  dark:bg-gray-900  dark:text-white p-2 transition md:transition-none ${navShow} md:static top-0 `}
+        className={`flex flex-col items-center md:flex-row gap-[3%] text-2xl h-screen  md:h-full absolute bg-white  dark:bg-gray-900  dark:text-white p-2 transition md:transition-none ${navShow} md:static top-0 `}
       >
         <IoMdClose
           className="  md:hidden cursor-pointer hover:text-amber-500 text-4xl "
@@ -85,5 +85,6 @@ export default function Navbar({ otherClasses = "" }) {
       </ul>
       </div>
     </nav>
+    </div>
   );
 }

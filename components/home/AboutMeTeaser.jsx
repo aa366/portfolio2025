@@ -3,7 +3,7 @@ import data from "@/data/home.json";
 
 const AboutMeTeaser = () => {
   return (
-    <div className="">
+    <div className="p-2">
       {data.personal.aboutTeaser.map((ele, idx) => (
         <h1 key={ele + idx} className="font-bold">
           {ele}
