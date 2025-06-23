@@ -5,7 +5,7 @@ import { LinkPreview } from "@/components/ui/link-preview";
 import { timeStamp } from "node:console";
 
 
-const Expertise = ({classes}:{classes?:string;}) => {
+const Expertise = ({classes}) => {
   const { icon, links } = dataP;
   const { personal: infos } = data;
 
